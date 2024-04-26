@@ -12,7 +12,7 @@ const App = () => {
      setSearch(e.target.value)
   }
   return (
-      <div>
+      <div> 
           <h1>Search Item</h1>
           <input type="text"  onChange={changeHandel}/>
           <ul>
